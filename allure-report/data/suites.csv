@@ -1,22 +1,22 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "As a 3rd party Developer
   I want to access postcode information
+  So that I can retrieve valid data for US and Great Britain","41","Empty postcode","","2026-04-30","passed","2026-04-30","","","",""
+"As a 3rd party Developer
+  I want to access postcode information
+  So that I can retrieve valid data for US and Great Britain","37","Get valid GB postcode details","","2026-04-30","passed","2026-04-30","","","",""
+"As a 3rd party Developer
+  I want to access postcode information
+  So that I can retrieve valid data for US and Great Britain","40","Lowercase vs uppercase GB postcode","","2026-04-30","passed","2026-04-30","","","",""
+"As a 3rd party Developer
+  I want to access postcode information
+  So that I can retrieve valid data for US and Great Britain","164","Get valid US postcode details","","2026-04-30","passed","2026-04-30","","","",""
+"As a 3rd party Developer
+  I want to access postcode information
   So that I can retrieve valid data for US and Great Britain","28","negative postcode","","2026-04-30","passed","2026-04-30","","","",""
 "As a 3rd party Developer
   I want to access postcode information
-  So that I can retrieve valid data for US and Great Britain","42","Empty postcode","","2026-04-30","passed","2026-04-30","","","",""
+  So that I can retrieve valid data for US and Great Britain","181","Invalid postcode returns 404","","2026-04-30","passed","2026-04-30","","","",""
 "As a 3rd party Developer
   I want to access postcode information
-  So that I can retrieve valid data for US and Great Britain","35","Invalid postcode returns 404","","2026-04-30","passed","2026-04-30","","","",""
-"As a 3rd party Developer
-  I want to access postcode information
-  So that I can retrieve valid data for US and Great Britain","35","Lowercase vs uppercase GB postcode","","2026-04-30","passed","2026-04-30","","","",""
-"As a 3rd party Developer
-  I want to access postcode information
-  So that I can retrieve valid data for US and Great Britain","36","Unsupported country returns 404","","2026-04-30","passed","2026-04-30","","","",""
-"As a 3rd party Developer
-  I want to access postcode information
-  So that I can retrieve valid data for US and Great Britain","51","Get valid GB postcode details","","2026-04-30","passed","2026-04-30","","","",""
-"As a 3rd party Developer
-  I want to access postcode information
-  So that I can retrieve valid data for US and Great Britain","153","Get valid US postcode details","","2026-04-30","broken","2026-04-30","","","",""
+  So that I can retrieve valid data for US and Great Britain","34","Unsupported country returns 404","","2026-04-30","passed","2026-04-30","","","",""
