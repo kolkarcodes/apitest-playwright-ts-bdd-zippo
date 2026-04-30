@@ -9,7 +9,7 @@ Feature: Zippopotam API postcode lookup
 
   # Positive scenarios
   Scenario: Get valid US postcode details
-    When I request postcode "90210" for country "us"
+    When I request postcode "90290901000" for country "us"
     Then the response status should be 200
     And the country should be "United States"
     And the postcode should be "90210"
