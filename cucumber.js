@@ -6,6 +6,10 @@ module.exports = {
     ],
     requireModule: ["ts-node/register"],
     paths: ["features/*.feature"],
-    format: ["progress"],
+    format: ["progress-bar","allure-cucumberjs/reporter"],
+      formatOptions: {
+      resultsDir: "allure-results",
+          logLevel: "error"
+    }
   }
 };
