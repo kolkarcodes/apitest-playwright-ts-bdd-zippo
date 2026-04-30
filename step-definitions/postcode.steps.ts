@@ -1,18 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
-
 import * as allure from 'allure-js-commons';
-
-Given('I print something', function () {
-  allure.attachment(
-    'Request',
-    JSON.stringify({ test: "data" }, null, 2),
-    'application/json'
-  );
-
-  console.log('Step works');
-});
-
 
 Given('the API base URL is configured', async function () {
   // Already handled in setup
